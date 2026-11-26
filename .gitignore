@@ -1,5 +1,6 @@
 using System;
-
+namespace ConsoleApp5
+{
 class Program
 {
     static void Main()
@@ -83,7 +84,4 @@ class Program
                 default:
                     Console.WriteLine("Invalid choice. Please select between 1 and 4.");
                     break;
-            }
-        }
-    }
-}
+        {
